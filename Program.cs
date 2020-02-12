@@ -12,8 +12,6 @@ namespace C_sharp_Exercise_4
             modText = AddPostSmiley(userInput);
             modText = AddPreSadFace(modText);
             WriteOutput(modText);
-
-            Console.ReadKey(true);
         }
         static string ObtainUserInput()
         {
